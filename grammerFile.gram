@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+ 
+public <greet>=(site) (face book | go girl | mail) ;
+
+public <greet>=(speech recognize) (complete | start );
+
+public <action> = (start | stop ) (photo  shop | function);
+public <command> = ( open | close) ( power option |program | my computer | calculator   | paint | task manager| Browser |note pad | music | excel );
+
+
+
